@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <!-- CONFIG LOADING -->
+    <script type="text/javascript" src="config/local.js"></script>
+    <!-- END OF CONFIG LOADING -->
+
+    <script type="text/javascript" src="thirdparty/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="thirdparty/underscore.js"></script>
+    <script type="text/javascript" src="thirdparty/backbone-min.js"></script>
+
+    <script type="text/javascript" src="js/MapperApp.js"></script>
+
+    <link href="style/style.css" type="text/css" rel="stylesheet" />
+    <title>Mapper</title>
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="hoodlist">
+        <h2>Neighborhoods</h2>
+        <ol>
+          <li data-hood="red">Red</li>
+          <li data-hood="blue">Blue</li>
+          <li data-hood="yellow">Yellow</li>
+        </ol>
+      </div>
+      <div class="instructions">
+        <h2>Instructions</h2>
+        <ol>
+          <li>Click a neighborhood to activate it.</li>
+          <li>You can also use the number keys to quickly switch between neighborhoods.</li>
+          <li>Clicking a cell in the map toggles it from the active neighborhood.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div id="map">
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <script type="text/javascript">
+      var app = new Mapper.MapperApp();
+    </script>
+  </body>
+</html>

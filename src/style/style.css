@@ -1,0 +1,42 @@
+.sidebar {
+  float: left;
+  margin-right: 20px;
+  width: 400px;
+}
+
+.hoodlist li {
+  cursor: pointer;
+}
+
+.hoodlist .active {
+  font-weight: bolder;
+}
+
+#map {
+  float: left;
+}
+
+#map table {
+  border-collapse: collapse;
+}
+
+#map td {
+  width: 20px;
+  height: 20px;
+  border: thin solid #ccc;
+}
+
+#map .red { background-color: red; }
+#map .blue { background-color: blue; }
+#map .yellow { background-color: yellow; }
+
+#map .red.blue { background-color: purple; }
+#map .red.yellow { background-color: orange; }
+#map .blue.yellow { background-color: green; }
+
+#map .red.blue.yellow { background-color: brown; }
+
+#map .top { border-top: 2px solid black; }
+#map .bottom { border-bottom: 2px solid black; }
+#map .right { border-right: 2px solid black; }
+#map .left { border-left: 2px solid black; }
